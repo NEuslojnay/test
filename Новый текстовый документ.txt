@@ -1,2 +1,18 @@
-jasasdasdasdqwewerwerwerwer
-1231232323
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Пример JavaScript в <body></h2>
+
+<p id="demo">Параграф</p>
+
+<button type="button" onclick="myFunction()">Попробуй</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Параграф изменён.";
+}
+</script>
+
+</body>
+</html>
