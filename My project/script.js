@@ -1,38 +1,32 @@
-// age = 20.
-// Используя if, проверьте:
-// если age >= 18, выведите "Доступ разрешён";
-// иначе — "Доступ запрещён". 
-/////////////////
-// let age = 20; 
-// let b = "Доступ разрешён" ;
-// let c = "Доступ запрещён";
+// Personla nomli JS class oching
+// ichida Name,Surname, Age, Job propertielari bolsin
 
-// if (age >= 60) {
-//   console.log(b);
-// } else {
-//   console.log(c);
-// };
+class Personla {
+  constructor(Name,Surname,Age,Job,) 
+  
+  { this.name = Name;
+    this.Surname = Surname;
+    this.Age = Age;
+    this.Job = Job;
+   }
+}
+class Student {
+  constructor(Name,Surname,Age,Job,) 
+  
+  { 
+    this.name.Student = Personla.Name ;
+    this.name.Student = Personla.Surname ;
+    this.name.Student = Personla.Age ;
+    this.name.Student = Personla.Job ;
+    }
+    increaseAge() {
+    this.age += 1;
+  }
+}
 
+const student1 = new Student("Ali", "Valiyev", 20, "Student");
 
+student1.increaseAge();
 
-// Напишите программу, которая проверяет:
-// если переменная score больше 90, вывести "Отлично";
-// если от 60 до 90 — "Хорошо";
-// иначе — "Нужно постараться".
-
-// let score = 100;
-
-// if (score > 90)
-//   {console.log("Отлично");} 
-// else if (score <= 90 , score >= 60)
-//   {console.log("Хорошо");} 
-// else 
-//   {console.log("Нужно постараться")}
-
-
-
-// Создайте функцию sum(x, y), которая возвращает сумму двух чисел.
-// Вызовите её с аргументами 3 и 7, результат выведите в console.log.
-
-
+console.log("После увеличения", student1.age);
 
